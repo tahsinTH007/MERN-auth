@@ -13,6 +13,7 @@
  * @returns {string} HTML string for OTP email
  */
 export const getOtpHtml = ({ email, otp }) => {
+  console.log("in opt html",otp);
   const appName = process.env.APP_NAME || "Authentication App";
 
   return `<!DOCTYPE html>
